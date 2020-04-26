@@ -1,11 +1,20 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-import { Container, Texto } from './styles';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Container, Texto, Form, Input, SubmitButton } from './styles';
 
 export default function Main() {
     return (
         <Container>
-            <Texto>Tela Main</Texto>
+            <Form>
+                <Input
+                    autoCorrect={false}
+                    autoCaptalize="none"
+                    placeholder="Adicionar usuário"
+                />
+                <SubmitButton>
+                    <Icon name="add" size={20} color="#fff" />
+                </SubmitButton>
+            </Form>
         </Container>
     );
 }
