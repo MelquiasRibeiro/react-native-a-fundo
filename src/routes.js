@@ -24,11 +24,7 @@ function Routes() {
                 }}
             >
                 <Stack.Screen name="Home" component={Main} />
-                <Stack.Screen
-                    options={{ headerShown: false }}
-                    name="User"
-                    component={User}
-                />
+                <Stack.Screen name="User" component={User} />
             </Stack.Navigator>
         </NavigationContainer>
     );

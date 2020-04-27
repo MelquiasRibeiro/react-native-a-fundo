@@ -66,7 +66,7 @@ export const Name = styled.Text`
 `;
 
 export const Bio = styled.Text.attrs({
-    numberOfLines: 2,
+    numberOfLines: 1,
 })`
     font-size: 13px;
     line-height: 18px;
