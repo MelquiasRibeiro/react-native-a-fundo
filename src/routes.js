@@ -12,6 +12,7 @@ function Routes() {
         <NavigationContainer>
             <Stack.Navigator
                 screenOptions={{
+                    headerTitleAlign: 'center',
                     headerStyle: {
                         backgroundColor: '#7159c1',
                     },
@@ -23,7 +24,11 @@ function Routes() {
                 }}
             >
                 <Stack.Screen name="Home" component={Main} />
-                <Stack.Screen name="User" component={User} />
+                <Stack.Screen
+                    options={{ headerShown: false }}
+                    name="User"
+                    component={User}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     );
