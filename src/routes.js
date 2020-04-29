@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Main from './pages/main';
 import User from './pages/user';
+import Repository from './pages/repository';
 
 const Stack = createStackNavigator();
 
@@ -24,7 +25,12 @@ function Routes() {
                 }}
             >
                 <Stack.Screen name="Home" component={Main} />
-                <Stack.Screen name="User" component={User} />
+                <Stack.Screen
+                    screenOptions={{ headerBackTitleVisible: false }}
+                    name="User"
+                    component={User}
+                />
+                <Stack.Screen name="Repository" component={Repository} />
             </Stack.Navigator>
         </NavigationContainer>
     );
