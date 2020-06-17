@@ -10,8 +10,8 @@ Nesta aplicação o Usuário pode adicionar perfis do Github e visualizar os rep
 + Requisiçoes a API do Github com o [Axios](https://www.npmjs.com/package/axios);
 + Armazenamento de dados no AsycStorage;
 + Renderização Condicional;
-+ Scroll infinito 
-+ Pull to Refresh
++ Scroll infinito;
++ Pull to Refresh;
 + WebView com o [react-native-webview](https://github.com/react-native-community/react-native-webview);
 
 ## Telas:
