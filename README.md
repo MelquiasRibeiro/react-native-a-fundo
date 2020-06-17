@@ -1,4 +1,4 @@
-# react-native-a-fundo
+# react-native-a-fundo.
 Tópicos básicos e avançados de React Native
 
 Nesta aplicação o Usuário pode adicionar perfis do Github e visualizar os repositórios favoritados por estes. 
